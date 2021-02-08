@@ -46,7 +46,7 @@ Our team has been assigned with this NLP project for HumAIn as part of our AI tr
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://chrisgiets.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/gietsc/HumAIn-Project/)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -62,9 +62,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Python](https://www.python.org/)
+* [Docker](https://www.docker.com/)
+* [Heroku](https://heroku.com/)
 
 
 
@@ -124,14 +124,6 @@ Project Link: [https://github.com/gietsc/humain-project](https://github.com/giet
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/gietsc/humain-project.svg?style=for-the-badge
-[contributors-url]: https://github.com/gietsc/HumAIn-Project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gietsc/humain-project.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedinCG-shield]: https://img.shields.io/badge/-Giets.C-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedinCG-url]: https://linkedin.com/in/christophegiets/
 [linkedinCS-shield]: https://img.shields.io/badge/-Schellinck.C-black.svg?style=for-the-badge&logo=linkedin&colorB=555
