@@ -107,6 +107,7 @@ Project Link: [https://github.com/gietsc/humain-project](https://github.com/giet
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [BeCode](https://becode.org/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 
