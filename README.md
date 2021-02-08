@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/gietsc/HumAIn-Project/">
-    <img src="assets/images/logob.png" alt="Logo" width="280" height="80">
+    <img src="assets/images/logoblack.png" alt="Logo" width="280" height="80">
   </a>
   <p align="center">
 Our team has been assigned with this NLP project for HumAIn as part of our AI training at BeCode Brussels.
