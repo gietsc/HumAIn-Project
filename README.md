@@ -11,11 +11,11 @@
     <img src="assets/images/logo.png" alt="Logo" width="180" height="80">
   </a>
   <h3 align="center">NLP Project</h3>
-
   <p align="center">
 Our team has been assigned with this NLP project for HumAIn as part of our AI training at BeCode Brussels.
     <br/>
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore our Demo »</strong></a>
+    <br/>
+    <a href="https://github.com/gietsc/Humain-project"><strong>Explore our Demo »</strong></a>
 </p>
 
 
