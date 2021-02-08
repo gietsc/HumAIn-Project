@@ -1,5 +1,5 @@
 [![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedinDG-shield]][linkedinCS-url]
+[![LinkedIn][linkedinDU-shield]][linkedinDU-url]
 [![LinkedIn][linkedinCS-shield]][linkedinCS-url]
 [![LinkedIn][linkedinOD-shield]][linkedinOD-url]
 [![LinkedIn][linkedinCG-shield]][linkedinCG-url]
