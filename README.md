@@ -43,6 +43,8 @@ HumAIn is an AI consultancy company that helps your organisation to cost-effecti
 </details>
 
 ## Disclaimer
+
+Following the reception of our assignement, it appeared clear that our methological approach would be evaluated over this project, and therefore the ReadMe file might be unecessary complete and informative for external .
 These are preleminary notes that will be used to synthesise our methodological approach for the project.
 Some areas contain incomplete data that will be filled later.
 Also this is my own interpretation of the situation feel free to correct me if anything is not correct.
@@ -70,13 +72,11 @@ This section should list any major frameworks that you built your project using.
 
 <!-- GETTING STARTED -->
 ## Getting Started
-One of the main takeaways from HumAIn's presentation is that more than technical skills it's our methological approach that will be evaluated.
-Therefore making early wise choices about our priorities and organisation is key to the success of this project.
-"Creativity" will also have a big role to play, because this assignment is basicaly a "carte blanche" were the challenge is to be ambitious enough to envision a clean and efficient solution, while being reasonable enough with the management of our limited ressources. 
-2 weeks is longer deadline that what we were used to, it's an opportunity to try new methodolical approaches leaving room for creativity and out of the bix thinking.
 
-In order to tackle this it was important to understand each other's knowledge about NLP and our individual understanding of what was asked of us.
-That's why we summerized the most needed areas of knowledge that would be required to grasp our potential and set up our goals
+This project has been assigned with really small directives (voluntarly) and is "carte blanche" which sets up a real challenge to be ambitious enough to envision a clean and efficient solution, while being reasonable enough with the management of our limited ressources.
+
+In order to tackle our project, it was important to understand each other's knowledge about NLP and our individual understanding of what was asked of us.
+That's why we summerized the most needed areas of knowledge that would be required to grasp our potential and set up our goals.
 
 First since providing a demo isn't the main objective we had to evaluate with our skill pool how effectienlty we could set up a demo.
 Building a solid pipeline would require following skills :
