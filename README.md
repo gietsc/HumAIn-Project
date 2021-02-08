@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/gietsc/HumAIn-Project/">
-    <img src="assets/images/logo.png" alt="Logo" width="180" height="80">
+    <img src="assets/images/logob.png" alt="Logo" width="180" height="80">
   </a>
   <h3 align="center">NLP Project</h3>
   <p align="center">
