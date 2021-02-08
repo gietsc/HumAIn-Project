@@ -103,8 +103,11 @@ This is an example of how to list things you need to use the software and how to
 ## Contact
 
 Didier Ukanda - [@didier-ukanda](https://www.linkedin.com/in/didier-ukanda/) - didier.ukanda@gmail.com
+
 Opaps Ditudidi - [@opapsditudidi](https://www.linkedin.com/in/opapsditudidi/) - opaps.ditudidi@gmail.com
+
 Christophe Schellinck - [@christophe-schellinck](https://www.linkedin.com/in/christophe-schellinck/) - christopheschellinck@gmail.com
+
 Christophe Giets - [@christophegiets](https://www.linkedin.com/in/christophegiets/) - christophe.giets@gmail.com
 
 Project Link: [https://github.com/gietsc/humain-project](https://github.com/gietsc/humain-project)
