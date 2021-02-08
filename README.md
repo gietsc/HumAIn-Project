@@ -72,8 +72,7 @@ This section should list any major frameworks that you built your project using.
 ## Getting Started
 One of the main takeaways from HumAIn's presentation is that more than technical skills it's our methological approach that will be evaluated.
 Therefore making early wise choices about our priorities and organisation is key to the success of this project.
-"Creativity" will also have a big role to play, because this assignment is basicaly a "carte blanche" were the challenge is to be ambitious enough to envision a clean and efficient solution,
-while being reasonable enough with the management of our limited ressources. 
+"Creativity" will also have a big role to play, because this assignment is basicaly a "carte blanche" were the challenge is to be ambitious enough to envision a clean and efficient solution, while being reasonable enough with the management of our limited ressources. 
 2 weeks is longer deadline that what we were used to, it's an opportunity to try new methodolical approaches leaving room for creativity and out of the bix thinking.
 
 In order to tackle this it was important to understand each other's knowledge about NLP and our individual understanding of what was asked of us.
@@ -81,25 +80,26 @@ That's why we summerized the most needed areas of knowledge that would be requir
 
 First since providing a demo isn't the main objective we had to evaluate with our skill pool how effectienlty we could set up a demo.
 Building a solid pipeline would require following skills :
-	* Setting up an API
-	* Setting up a front end with a CMS
-	* Deploying the project (Heroku, Docker)
-	* Python knowledge 
-	* General Coding knowledge about architecture
-	* Understanding of AI models
-	* Understaning of NLP
-After a quick round table we confirmed most skills were covered by at least one person in the team except for NLP, which we all just started to learn 5 days ago.
-Since it's the center of the project it's important to understand were everybody's knowledge stood with theoretical and practical aspects of NLP. Since none of us were feeling comfortable enough, it became a
-necessity to figure out the most time efficent way for the whole team to get to know it. It's only then that we could be confident on the technical direction we want to take.
-Luckely two members of the team were following a similar track course on Udemy that was quite complete. Also those members felt confident in their ability to finish this
-training in a short enough amount of time (3 days) and be share their knowledge to the rest of the team.
-Meanwhile the rest of the team can start working on other aspects that don't involve the technical aspects of NLP. This involved :
+* Setting up an API
+* Setting up a front end with a CMS
+* Deploying the project (Heroku, Docker)
+* Python knowledge 
+* General Coding knowledge about architecture
+* Understanding of AI models
+* Understaning of NLP
 
-	* Setting up a shared document platform
-	* Setting up Github
-	* Setting up a Trello track?
-	* Setting up the starting block of the pipeline
-	* Setting up ways to keep track of the project's evolution (through this file)
+After a quick round table we confirmed most skills were covered by at least one person in the team except for NLP, which we all just started to learn 5 days ago.
+
+Since it's the center of the project it's important to understand were everybody's knowledge stood with theoretical and practical aspects of NLP. Since none of us were feeling comfortable enough, it became a necessity to figure out the most time efficent way for the whole team to get to know it. It's only then that we could be confident on the technical direction we want to take.
+
+Luckily two members of the team were following a similar track course on Udemy that was quite complete. Also those members felt confident in their ability to finish this training in a short enough amount of time (3 days) and be share their knowledge to the rest of the team.
+
+Meanwhile the rest of the team can start working on other aspects that don't involve the technical aspects of NLP. This involved :
+* Setting up a shared document platform
+* Setting up Github
+* Setting up a Trello track?
+* Setting up the starting block of the pipeline
+* Setting up ways to keep track of the project's evolution (through this file)
 
 More on setting up the pipeline :
 While it's not clear yet how we will tackle this project and what our main objective is, we do know that (for time efficienty reasons) we will be using the Spacy library.
@@ -124,7 +124,7 @@ Now that we had a clearer vision of where we were heading, we could start thinki
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Example
   ```example
   ```
 
