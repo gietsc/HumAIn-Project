@@ -11,7 +11,8 @@
     <img src="assets/images/logoblack.png" alt="Logo" width="280" height="80">
   </a>
   <p align="center">
-Our team has been assigned with this NLP project for HumAIn as part of our AI training at BeCode Brussels.
+As part of our AI training at BeCode Brussels, our team has been assigned with this NLP project for HumAIn.
+HumAIn is an AI consultancy company that helps your organisation to cost-effectively integrate AI technologies, shooting for exponential growth opportunities. 
     <br/>
     <br/>
     <a href="https://github.com/gietsc/Humain-project"><strong>Explore our Demo »</strong></a>
@@ -41,14 +42,22 @@ Our team has been assigned with this NLP project for HumAIn as part of our AI tr
   </ol>
 </details>
 
-
+## Disclaimer
+These are preleminary notes that will be used to synthesise our methodological approach for the project.
+Some areas contain incomplete data that will be filled later.
+Also this is my own interpretation of the situation feel free to correct me if anything is not correct.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+The objective is to develop an NLP model based on data provided by HumAIn. As a bonus, we should create a full pipeline with our model to ideally, provide a working product to HumAIn. In this project, HumAIn will act as the final customer. The Project should be focused as it was for a realcustomer and therefore it is important we that in mind all along the proejct. 
+ 
+Project Duration : 10 working days
+Presentation Duration : 10 minutes
+
 [![Product Name Screen Shot][product-screenshot]](https://github.com/gietsc/HumAIn-Project/)
 
-This will be a great ReadMe.
+
 
 ### Built With
 
@@ -61,9 +70,56 @@ This section should list any major frameworks that you built your project using.
 
 <!-- GETTING STARTED -->
 ## Getting Started
+One of the main takeaways from HumAIn's presentation is that more than technical skills it's our methological approach that will be evaluated.
+Therefore making early wise choices about our priorities and organisation is key to the success of this project.
+"Creativity" will also have a big role to play, because this assignment is basicaly a "carte blanche" were the challenge is to be ambitious enough to envision a clean and efficient solution,
+while being reasonable enough with the management of our limited ressources. 
+2 weeks is longer deadline that what we were used to, it's an opportunity to try new methodolical approaches leaving room for creativity and out of the bix thinking.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+In order to tackle this it was important to understand each other's knowledge about NLP and our individual understanding of what was asked of us.
+That's why we summerized the most needed areas of knowledge that would be required to grasp our potential and set up our goals
+
+First since providing a demo isn't the main objective we had to evaluate with our skill pool how effectienlty we could set up a demo.
+Building a solid pipeline would require following skills :
+	* Setting up an API
+	* Setting up a front end with a CMS
+	* Deploying the project (Heroku, Docker)
+	* Python knowledge 
+	* General Coding knowledge about architecture
+	* Understanding of AI models
+	* Understaning of NLP
+After a quick round table we confirmed most skills were covered by at least one person in the team except for NLP, which we all just started to learn 5 days ago.
+Since it's the center of the project it's important to understand were everybody's knowledge stood with theoretical and practical aspects of NLP. Since none of us were feeling comfortable enough, it became a
+necessity to figure out the most time efficent way for the whole team to get to know it. It's only then that we could be confident on the technical direction we want to take.
+Luckely two members of the team were following a similar track course on Udemy that was quite complete. Also those members felt confident in their ability to finish this
+training in a short enough amount of time (3 days) and be share their knowledge to the rest of the team.
+Meanwhile the rest of the team can start working on other aspects that don't involve the technical aspects of NLP. This involved :
+
+	* Setting up a shared document platform
+	* Setting up Github
+	* Setting up a Trello track?
+	* Setting up the starting block of the pipeline
+	* Setting up ways to keep track of the project's evolution (through this file)
+
+More on setting up the pipeline :
+While it's not clear yet how we will tackle this project and what our main objective is, we do know that (for time efficienty reasons) we will be using the Spacy library.
+Therefor we can already start extracting and preprocessing the data that was provided before everybody's on the same page with NLP Knwoledge.
+A .py file with a method 'import_data()' that returns each document provided by HumAIn in a workable format (Spacy token, dataframe, etc)
+
+After covering the technical part, we assested everyone's softskills and how to put them in good use. (more on this to come)
+
+Now that we had a clearer vision of where we were heading, we could start thinking about some short/mid/long term objectives.
+
+#### Project Objectives:
+
+*Provide Presentation / Working methodology / Demo (in that order of priority)
+*finish the technical part 3 days before the end
+
+#### Personal Objectives :
+
+* Selflearn as a team NLP in 3 days
+* setting up the first step of the pipeline (import_data() method)
+* Gather questions to ask to the client in 3 days
 
 ### Prerequisites
 
