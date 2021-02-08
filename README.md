@@ -25,7 +25,7 @@
   <h3 align="center">NLP Project</h3>
 
   <p align="center">
-    project_description
+Our team has been assigned with this NLP project for HumAIn as part of our AI training at BeCode Brussels.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore our Demo »</strong></a>
 </p>
