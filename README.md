@@ -1,7 +1,8 @@
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
+[![LinkedInD][linkedin-shield]][linkedin-url]
+[![LinkedInO][linkedin-shield]][linkedin-url]
+[![LinkedInCS][linkedin-shield]][linkedin-url]
+[![LinkedInCG][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -171,11 +172,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/gietsc/humain-project.svg?style=for-the-badge
 [contributors-url]: https://github.com/gietsc/HumAIn-Project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/gietsc/humain-project.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedinCG-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedinCG-url]: https://linkedin.com/in/christophegiets/
 [product-screenshot]: assets/images/screenshot.png
