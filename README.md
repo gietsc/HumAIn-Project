@@ -115,6 +115,8 @@ Project Link: [https://github.com/gietsc/humain-project](https://github.com/giet
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/gietsc/humain-project.svg?style=for-the-badge
+[contributors-url]: https://github.com/gietsc/HumAIn-Project/graphs/contributors
 [linkedinCG-shield]: https://img.shields.io/badge/-Giets.C-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedinCG-url]: https://linkedin.com/in/christophegiets/
 [linkedinCS-shield]: https://img.shields.io/badge/-Schellinck.C-black.svg?style=for-the-badge&logo=linkedin&colorB=555
