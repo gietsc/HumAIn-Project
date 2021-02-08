@@ -16,8 +16,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="180" height="80">
+  <a href="https://github.com/gietsc/HumAIn-Project/">
+    <img src="assets/images/logo.png" alt="Logo" width="180" height="80">
   </a>
 
   <h3 align="center">NLP Project</h3>
