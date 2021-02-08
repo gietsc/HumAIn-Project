@@ -1,8 +1,6 @@
 [![Contributors][contributors-shield]][contributors-url]
-[![LinkedInD][linkedin-shield]][linkedin-url]
-[![LinkedInO][linkedin-shield]][linkedin-url]
-[![LinkedInCS][linkedin-shield]][linkedin-url]
-[![LinkedInCG][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shieldCG]][linkedin-urlCG]
+[![LinkedIn][linkedin-shieldCS]][linkedin-urlCS]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -180,4 +178,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedinCG-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedinCG-url]: https://linkedin.com/in/christophegiets/
+[linkedinCS-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedinCS-url]: https://www.linkedin.com/in/christophe-schellinck/
 [product-screenshot]: assets/images/screenshot.png
