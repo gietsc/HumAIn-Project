@@ -1,0 +1,349 @@
+,Names
+0,Topic 1
+1,way
+2,really
+3,like
+4,say
+5,thing
+6,want
+7,just
+8,people
+9,think
+10,human
+11,nt
+0,Topic 2
+1,expo
+2,ai
+3,expo
+0,Topic 3
+1,science
+2,professor
+3,mit
+4,engineering
+5,csail
+0,Topic 4
+1,alphago
+2,game
+0,Topic 5
+1,mit
+2,technology
+3,mit
+0,Topic 6
+1,recognition
+2,facial
+0,Topic 7
+1,robot
+2,robotic
+3,robot
+0,Topic 8
+1,node
+2,layer
+3,neural
+4,network
+0,Topic 9
+1,chip
+2,gpus
+3,chip
+0,Topic 10
+1,deepfake
+2,zuckerberg
+0,Topic 11
+1,car
+2,driver
+3,car
+0,Topic 12
+1,deepfake
+2,video
+3,deepfake
+0,Topic 13
+1,google
+2,service
+3,google
+0,Topic 14
+1,facebook
+2,company
+3,facebook
+0,Topic 15
+1,china
+2,chinese
+0,Topic 16
+1,datum
+2,data
+0,Topic 17
+1,device
+2,qualcomm
+3,ml
+4,kit
+5,camera
+0,Topic 18
+1,contract
+2,defense
+3,maven
+4,pentagon
+5,military
+0,Topic 19
+1,speech
+2,voice
+3,hate
+0,Topic 20
+1,image
+2,photo
+0,Topic 21
+1,language
+2,word
+3,sentence
+0,Topic 22
+1,huawei
+2,mate
+3,huawei
+0,Topic 23
+1,college
+2,faculty
+0,Topic 24
+1,female
+2,percent
+0,Topic 25
+1,openai
+2,altman
+3,openai
+0,Topic 26
+1,siri
+2,alexa
+3,assistant
+0,Topic 27
+1,ai
+2,uk
+0,Topic 28
+1,productivity
+2,future
+3,replace
+4,task
+5,technology
+6,report
+7,economy
+8,wage
+9,workforce
+10,automation
+11,income
+12,skill
+13,economic
+14,worker
+15,job
+0,Topic 29
+1,nvidia
+2,xavier
+0,Topic 30
+1,apple
+2,siri
+3,apple
+0,Topic 31
+1,bias
+2,algorithm
+0,Topic 32
+1,intel
+2,processor
+3,intel
+0,Topic 33
+1,ai
+2,intelligence
+0,Topic 34
+1,reinforcement
+2,learn
+3,learning
+4,deep
+0,Topic 35
+1,model
+2,researcher
+3,model
+0,Topic 36
+1,game
+2,poker
+3,play
+4,player
+0,Topic 37
+1,bot
+2,chatbot
+0,Topic 38
+1,nhs
+2,health
+3,healthcare
+0,Topic 39
+1,reply
+2,email
+3,app
+0,Topic 40
+1,open
+2,source
+3,tensorflow
+0,Topic 41
+1,cancer
+2,breast
+0,Topic 42
+1,patient
+2,doctor
+0,Topic 43
+1,patent
+2,file
+3,patent
+0,Topic 44
+1,student
+2,course
+3,class
+0,Topic 45
+1,ibm
+2,watson
+0,Topic 46
+1,drone
+2,fly
+0,Topic 47
+1,customer
+2,business
+0,Topic 48
+1,sound
+2,music
+3,instrument
+0,Topic 49
+1,material
+2,energy
+3,material
+0,Topic 50
+1,barrat
+2,art
+0,Topic 51
+1,map
+2,road
+0,Topic 52
+1,machine
+2,learn
+3,learning
+0,Topic 53
+1,aclu
+2,amazon
+3,aclu
+0,Topic 54
+1,agent
+2,action
+3,agent
+0,Topic 55
+1,hinton
+2,brain
+3,ng
+0,Topic 56
+1,quest
+2,intelligence
+3,mit
+0,Topic 57
+1,microsoft
+2,company
+3,microsoft
+0,Topic 58
+1,deepmind
+2,starcraft
+3,deepmind
+0,Topic 59
+1,school
+2,bus
+3,school
+0,Topic 60
+1,li
+2,fei
+3,li
+0,Topic 61
+1,schmidt
+2,eric
+3,schmidt
+0,Topic 62
+1,investor
+2,venture
+0,Topic 63
+1,cell
+2,grid
+3,cell
+0,Topic 64
+1,samsung
+2,centre
+3,samsung
+0,Topic 65
+1,turing
+2,test
+3,turing
+0,Topic 66
+1,video
+2,frame
+3,video
+0,Topic 67
+1,object
+2,brain
+3,object
+0,Topic 68
+1,european
+2,eu
+0,Topic 69
+1,news
+2,fake
+0,Topic 70
+1,molecule
+2,reaction
+3,molecule
+0,Topic 71
+1,gan
+2,image
+3,gan
+0,Topic 72
+1,sleep
+2,signal
+0,Topic 73
+1,content
+2,recommendation
+3,content
+0,Topic 74
+1,probabilistic
+2,program
+0,Topic 75
+1,defendant
+2,risk
+0,Topic 76
+1,debate
+2,debater
+0,Topic 77
+1,ingredient
+2,food
+0,Topic 78
+1,king
+2,adam
+0,Topic 79
+1,company
+2,uber
+0,Topic 80
+1,wordsmith
+2,minsky
+0,Topic 81
+1,farmer
+2,climate
+0,Topic 82
+1,autism
+2,child
+0,Topic 83
+1,cs
+2,cray
+0,Topic 84
+1,alexa
+2,amazon
+0,Topic 85
+1,fish
+2,underwater
+0,Topic 86
+1,genetic
+2,genome
+0,Topic 87
+1,francis
+2,pope
+0,Topic 88
+1,gerst
+2,cimon
+0,Topic 89
+1,plate
+2,police
+0,Topic 90
+1,attack
+2,threat
