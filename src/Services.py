@@ -8,6 +8,8 @@ import PyPDF2
 import Models
 
 from joblib import dump, load
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import NMF
 
 
 
@@ -52,13 +54,13 @@ def build_model(json_file_path: str):
     papers['text_lemmatized'] = papers['text_preprocessed'].apply(lambda x: lemmatizing_article(x))
     papers['text_lemmatized_string'] = papers['text_lemmatized'].apply(lambda x: ' '.join(x))
 
-    from sklearn.feature_extraction.text import TfidfVectorizer
+    
 
     # generating dtm
     tfidf = TfidfVectorizer(max_df=0.95, min_df=0, stop_words='english')
     dtm = tfidf.fit_transform(papers['text_lemmatized_string'])
 
-    from sklearn.decomposition import NMF
+    
 
     # generating nmf model
     nmf_model = NMF(n_components=30)
@@ -108,13 +110,15 @@ def get_tags(nmf_model, tfidf, topic_results):
     for topic in topics:
         temp_tags = []
         df = topic.tags
+        df = df[~df['Name'].isin(['ai', 'artificial', 'intelligence'])]
         temp_tags.extend(df[df['Weight'] > 2]['Name'])
         if len(temp_tags) < 3:
             temp_tags.extend(df[(df['Weight'] > 1.5) & (df['Weight'] <= 2)]['Name'])
         if len(temp_tags) < 3:
             temp_tags.extend(df[(df['Weight'] > 1) & (df['Weight'] <= 1.5)]['Name'])
         if len(temp_tags) < 3:
-            temp_tags.extend(df.iloc[-2: -1 + len(temp_tags)])
+            temp_tags.extend(df.iloc[-2:]['Name'])
+        temp_tags = list(set(temp_tags))
         tags_to_return.extend(temp_tags)
     return tags_to_return
 
