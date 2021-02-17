@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-FROM python
+FROM python:3.8.5-slim
 
 RUN apt-get update -y
 RUN apt-get install -y python3-pip python3-dev build-essential
