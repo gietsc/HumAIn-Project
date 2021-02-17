@@ -13,62 +13,7 @@ from sklearn.decomposition import NMF
 
 
 
-def build_model(json_file_path: str):
-   
-    nlp = spacy.load('en_core_web_sm')
 
-    #import json file and transform it into a Dataframe
-    papers = pd.read_json('../data/news_data.json', orient='split')
-    papers = papers.drop(columns=['authors', 'url', 'source', 'created_at', 'updated_at', 'author', 'date'], axis=1, inplace = False)
-
-    # Remove punctuation
-    papers['text_preprocessed'] = \
-    papers['text'].map(lambda x: re.sub('\s+', ' ', x))
-    papers['text_preprocessed'] = \
-    papers['text_preprocessed'].map(lambda x: re.sub('[\n]', ' ', x))
-    papers['text_preprocessed'] = \
-    papers['text_preprocessed'].map(lambda x: re.sub('[\']', '', x))
-    papers['text_preprocessed'] = \
-    papers['text_preprocessed'].map(lambda x: re.sub('[,\.!?]', '', x))
-
-    # Convert the titles to lowercase
-    papers['text_preprocessed'] = \
-    papers['text_preprocessed'].map(lambda x: x.lower())
-
-    # Remove AI words
-    papers['text_preprocessed'].map(lambda x : x.replace('ai', ''))
-    papers['text_preprocessed'].map(lambda x : x.replace('artificial', ''))
-    papers['text_preprocessed'].map(lambda x : x.replace('intelligence', ''))
-
-    # function to lemmatize a string
-    def lemmatizing_article(line):    
-        string = ''
-        list1 = []
-        doc = nlp(line)
-        for token in doc:
-            #string = ''.join(token.lemma_)
-            list1.append(token.lemma_)
-        return list1
-    
-    # creating lemmatized column in dataframe
-    papers['text_lemmatized'] = papers['text_preprocessed'].apply(lambda x: lemmatizing_article(x))
-    papers['text_lemmatized_string'] = papers['text_lemmatized'].apply(lambda x: ' '.join(x))
-
-    
-
-    # generating dtm
-    tfidf = TfidfVectorizer(max_df=0.95, min_df=0, stop_words='english')
-    dtm = tfidf.fit_transform(papers['text_lemmatized_string'])
-
-    
-
-    # generating nmf model
-    nmf_model = NMF(n_components=30)
-    nmf_model.fit(dtm)
-
-    # saving model
-    dump(nmf_model, 'nmf_model.joblib')
-    dump(tfidf, 'tfidf.joblib')
 
 def define_topic(PATH, file_path: str, is_pdf) -> json:
     '''
@@ -84,12 +29,12 @@ def define_topic(PATH, file_path: str, is_pdf) -> json:
 
     # retrieve models
     nmf_model = load(f'{PATH}nmf_model.joblib')
+    nmf_model.regularization='both'
     tfidf = load(f'{PATH}tfidf.joblib')
 
     # fit the text into the model
     dtm = tfidf.transform([text])
     topics_result = nmf_model.transform(dtm)[0]
-    
 
     # define the main topic
     # TODO : to be changed once we have labeled the topics

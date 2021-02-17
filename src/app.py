@@ -17,14 +17,6 @@ def upload_file():
         uploaded_file.save(uploaded_file.filename)    
     return make_response(Services.define_topic(PATH, uploaded_file.filename, False), 200)   
 
-
-@app.route('/random', methods=['POST'])
-def upload_fil():
-    uploaded_file = request.files['file']
-    if uploaded_file.filename != '':
-        uploaded_file.save(uploaded_file.filename)    
-    return make_response(Services.random_service(PATH, uploaded_file.filename, False), 200)   
-
      
 
 if __name__ == "__main__":
