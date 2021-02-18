@@ -11,10 +11,6 @@ from joblib import dump, load
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import NMF
 
-
-
-
-
 def define_topic(PATH, file_path: str, is_pdf) -> json:
     '''
     Takes a file path of a pdf and returns json containing the 
@@ -28,9 +24,9 @@ def define_topic(PATH, file_path: str, is_pdf) -> json:
             text = file.read()
 
     # retrieve models
-    nmf_model = load(f'{PATH}nmf_model.joblib')
+    nmf_model = load(f'nmf_model.joblib')
     nmf_model.regularization='both'
-    tfidf = load(f'{PATH}tfidf.joblib')
+    tfidf = load(f'tfidf.joblib')
 
     # fit the text into the model
     dtm = tfidf.transform([text])
