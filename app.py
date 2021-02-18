@@ -7,7 +7,7 @@ from flask import Flask,request, jsonify , make_response
 
 app = Flask(__name__)
 
-PATH = os.getcwd() + '/source/'
+PATH = '/source/'
 
 
 @app.route('/predict', methods=['POST'])
