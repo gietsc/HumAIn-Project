@@ -133,6 +133,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```example
+   git clone 
    ```
 3. Install packages
    ```example
